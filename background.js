@@ -8,10 +8,6 @@ client.onreadystatechange = function() {
 }
 client.send();
 
-//when the user clicks the icon
-chrome.browserAction.onClicked.addListener(function(e){
-});
-
 //listener for messages coming from the page
 //these are keystrokes
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
